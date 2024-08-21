@@ -4,16 +4,6 @@
 **Description:**  
 A brief overview of your website’s purpose and functionality. Explain what the website does and its target audience.
 
-## Table of Contents
-
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
 ## Features
 
 - Feature 1: Detailed explanation of feature 1.
@@ -26,13 +16,13 @@ A brief overview of your website’s purpose and functionality. Explain what the
 - **HTML5**: For structuring content.
 - **CSS3**: For styling the website.
 - **JavaScript**: For interactive elements.
-- **Frameworks and Libraries**: (e.g., React, Vue, Bootstrap etc.)
+- **Frameworks and Libraries**: (e.g., React, Vue, Bootstrap, etc.)
 - **Backend Technology**: (if applicable, e.g., Node.js, Django, etc.)
 - **Database**: (if applicable, e.g., MongoDB, MySQL, etc.)
 
 ## Installation
 
-Instructions on how to set up the project locally:
+To set up this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash

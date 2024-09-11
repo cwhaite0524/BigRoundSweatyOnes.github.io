@@ -1,1 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Template</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .hero {
+            background-image: url('hero-image.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .room {
+            border-bottom: 1px solid #ddd;
+            padding: 20px 0;
+        }
+        .room img {
+            width: 100%;
+            height: auto;
+        }
+        .room h2 {
+            margin-top: 0;
+        }
+        .amenities {
+            background-color: #f4f4f4;
+            padding: 20px 0;
+        }
+        .amenities h2 {
+            margin-top: 0;
+        }
+        .contact-form {
+            padding: 20px 0;
+        }
+        .contact-form form {
+            max-width: 600px;
+            margin: auto;
+        }
+        .contact-form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Welcome to Our Hotel</h1>
+            <p>Your comfort is our priority</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="rooms">
+            <div class="room">
+                <img src="room1.jpg" alt="Deluxe Room">
+                <h2>Deluxe Room</h2>
+                <p>Our Deluxe Rooms offer unparalleled comfort and luxury. Enjoy a spacious room with modern amenities and stunning views.</p>
+            </div>
+            <div class="room">
+                <img src="room2.jpg" alt="Suite Room">
+                <h2>Suite Room</h2>
+                <p>Experience the height of luxury in our Suite Rooms, complete with a separate living area and premium furnishings.</p>
+            </div>
+            <!-- Add more rooms as needed -->
+        </section>
+
+        <section class="amenities">
+            <div class="container">
+                <h2>Our Amenities</h2>
+                <ul>
+                    <li>Free Wi-Fi</li>
+                    <li>24/7 Room Service</li>
+                    <li>Swimming Pool</li>
+                    <li>Fitness Center</li>
+                    <li>On-site Restaurant</li>
+                    <li>Spa Services</li>
+                    <!-- Add more amenities as needed -->
+                </ul>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form action="submit_form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Hotel Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
 
